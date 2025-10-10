@@ -2,7 +2,11 @@
 get_header();
 ?>
 
-<h1>Hello world!</h1>
+Я страница
+
+
+
+
 
 
 <?php

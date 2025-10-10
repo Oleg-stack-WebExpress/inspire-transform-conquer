@@ -1,0 +1,112 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "d73eceadda1f594cec0536087539afbf",
+      "css": "heart",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "8e04c98c8f5ca0a035776e3001ad2638",
+      "css": "facebook",
+      "code": 61594,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "d090355c31f497b61d676416c1fd39fb",
+      "css": "twitter",
+      "code": 62217,
+      "src": "entypo"
+    },
+    {
+      "uid": "cc4e62d1721c863fdc6944d2fd87521d",
+      "css": "linkedin",
+      "code": 59393,
+      "src": "zocial"
+    },
+    {
+      "uid": "199c44bca402ec5a6351f75ba5228375",
+      "css": "dribbble",
+      "code": 61821,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "0f6a2573a7b6df911ed199bb63717e27",
+      "css": "github-circled",
+      "code": 61595,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f3dc2d6d8fe9cf9ebff84dc260888cdf",
+      "css": "heart-empty",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "s51at1xi1fkaomxvp6dqaax5jmyhtn4h",
+      "css": "basket-alt",
+      "code": 59395,
+      "src": "modernpics"
+    },
+    {
+      "uid": "37f6cfbb4062ed0d01b351ec35c334ff",
+      "css": "right-open-mini",
+      "code": 59396,
+      "src": "entypo"
+    },
+    {
+      "uid": "f27bba41a700af51a4dd23cf4edea61d",
+      "css": "headphones",
+      "code": 59397,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ed62f5f10b256b0a959e6c847ed8f4a6",
+      "css": "tape",
+      "code": 59398,
+      "src": "entypo"
+    },
+    {
+      "uid": "e5297b06d9300be7e7c347f78a9b8b61",
+      "css": "headphones-1",
+      "code": 59399,
+      "src": "typicons"
+    },
+    {
+      "uid": "7acc2dfe18c6f4548626696fab27ba8a",
+      "css": "play-circled2",
+      "code": 59400,
+      "src": "elusive"
+    },
+    {
+      "uid": "d20912c814d0ff9a7fd27ed1f54813cc",
+      "css": "magnet",
+      "code": 59401,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "b86600decaba538aca184421752cd640",
+      "css": "soundcloud",
+      "code": 62280,
+      "src": "entypo"
+    },
+    {
+      "uid": "b7bd78e163801889af145e513d6c5383",
+      "css": "mic-outline",
+      "code": 59402,
+      "src": "typicons"
+    },
+    {
+      "uid": "e3699d145bd628d2a35d4a508b616f0c",
+      "css": "equalizer",
+      "code": 59403,
+      "src": "iconic"
+    }
+  ]
+}
