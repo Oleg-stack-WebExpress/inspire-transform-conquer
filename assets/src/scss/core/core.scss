@@ -9,6 +9,13 @@ a {
 .logo {
     display: inline-flex;
 
+    @media (max-width: 543px) {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
     img {
         max-width: 40px;
         max-height: 40px;

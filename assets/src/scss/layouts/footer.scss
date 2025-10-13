@@ -8,17 +8,39 @@
         padding-bottom: 30px;
         border-bottom: 1px solid #d5d2d2;
 
+        @media (max-width: 543px) {
+            flex-direction: column;
+            align-items: center;
+        }
+
         &__left {
+            
+
             p {
                 margin-top: 10px;
                 max-width: 340px;
+
+                @media (max-width: 543px) {
+                    text-align: center;
+                }
+            }
+
+            @media (max-width: 543px) {
+                flex-direction: column;
+                align-items: center;
             }
 
             .social-links {
 
+                @media (max-width: 543px) {
+                    text-align: center;
+                }
+
                 .icon {
                     font-size: 28px;
                     color: black;
+                    transition: color 0.3s ease;
+                    /* Плавный переход */
 
                     .icon-facebook-circled {
                         font-size: 32px;
@@ -29,10 +51,20 @@
                     }
                 }
             }
+
+            .social-links:hover .icon {
+                color: #5b5a5a;
+                /* Все иконки становятся серыми */
+            }
+
+            .social-links .icon:hover {
+                color: black !important;
+                /* Иконка под курсором остается черной */
+            }
+
         }
 
         &__right {
-
 
             ul {
                 list-style: none;
@@ -41,6 +73,11 @@
                 align-items: flex-end;
                 /* Прижимаем элементы к правому краю */
                 margin-left: auto;
+
+                @media (max-width: 543px) {
+                    align-items: center;
+                    padding-top: 22px;
+                }
 
                 li {
 
@@ -51,18 +88,38 @@
 
                     a {
                         color: black;
+                        transition: color 0.3s ease;
                     }
                 }
             }
         }
+
+        &__right:hover a {
+            color: #5b5a5a;
+            /* Все a становятся серыми */
+        }
+
+        &__right a:hover {
+            color: black !important;
+            /* a под курсором остается черной */
+        }
     }
 
     .footer__copyright {
+
         p {
             color: #999;
 
+            @media (max-width: 543px) {
+                text-align: center;
+            }
+
             a {
                 color: #999;
+
+                &:hover {
+                    color: #3c3b3b;
+                }
             }
         }
     }
