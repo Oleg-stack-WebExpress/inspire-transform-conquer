@@ -125,6 +125,24 @@
       "css": "xing",
       "code": 61800,
       "src": "fontawesome"
+    },
+    {
+      "uid": "9f41cbda67dafb38926a4201a01691c9",
+      "css": "sun",
+      "code": 59404,
+      "src": "iconic"
+    },
+    {
+      "uid": "567e3e257f2cc8fba2c12bf691c9f2d8",
+      "css": "moon",
+      "code": 61830,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "16bd6f8fd1c32a89b16d61e09a968c24",
+      "css": "zoom-in-outline",
+      "code": 59405,
+      "src": "typicons"
     }
   ]
 }

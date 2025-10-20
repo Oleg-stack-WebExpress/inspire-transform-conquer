@@ -11,11 +11,14 @@
 .icon-magnet:before { content: '\e809'; } /* '' */
 .icon-mic-outline:before { content: '\e80a'; } /* '' */
 .icon-equalizer:before { content: '\e80b'; } /* '' */
+.icon-sun:before { content: '\e80c'; } /* '' */
+.icon-zoom-in-outline:before { content: '\e80d'; } /* '' */
 .icon-facebook-circled:before { content: '\f051'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-github-circled:before { content: '\f09b'; } /* '' */
 .icon-xing:before { content: '\f168'; } /* '' */
 .icon-dribbble:before { content: '\f17d'; } /* '' */
+.icon-moon:before { content: '\f186'; } /* '' */
 .icon-twitter:before { content: '\f309'; } /* '' */
 .icon-instagram-filled:before { content: '\f31f'; } /* '' */
 .icon-soundcloud:before { content: '\f348'; } /* '' */
