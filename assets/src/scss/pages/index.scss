@@ -1,0 +1,15 @@
+/* inspire section */
+.inspire {
+    .container {
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+    }
+
+    &__right-blok {
+        img {
+            height: 420px;
+            width: 352px;
+        }
+    }
+}
