@@ -1,9 +1,14 @@
 /* inspire section */
 .inspire {
-    .container {
-        display: flex;
-        flex-direction: row; 
-        align-items: center;
+
+    &__left-blok {
+        p {
+            font-size: 24px;
+        }
+        .btn-dark{
+            padding: 16px 28px;
+            margin-bottom: 15px;
+        }
     }
 
     &__right-blok {
