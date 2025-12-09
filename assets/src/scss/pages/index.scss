@@ -5,16 +5,16 @@
         p {
             font-size: 24px;
         }
-        .btn-dark{
+
+        .btn-dark {
             padding: 16px 28px;
             margin-bottom: 15px;
         }
     }
 
-    &__right-blok {
-        img {
-            height: 420px;
-            width: 352px;
-        }
+    img {
+        height: auto;
+        width: 100%;
     }
+
 }

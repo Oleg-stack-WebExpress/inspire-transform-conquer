@@ -7,7 +7,7 @@ jQuery.noConflict();
 })(jQuery);
 
 
-
+// Скролл
 class HeaderScroll {
   constructor() {
     this.header = document.querySelector('.header');
@@ -47,41 +47,41 @@ new HeaderScroll();
 
 
 function updateDropdownStyles() {
-    const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+  const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
 
-    dropdownToggles.forEach(toggle => {
-        const dropdownMenu = toggle.nextElementSibling;
-        const headerActions = toggle.closest('.header__actions');
+  dropdownToggles.forEach(toggle => {
+    const dropdownMenu = toggle.nextElementSibling;
+    const headerActions = toggle.closest('.header__actions');
 
-        // Проверяем, что элемент находится в нужном блоке
-        if (!headerActions) return;
+    // Проверяем, что элемент находится в нужном блоке
+    if (!headerActions) return;
 
-        if (toggle.getAttribute('aria-expanded') === 'true') {
-            // Принудительно применяем стили
-            Object.assign(dropdownMenu.style, {
-                position: 'absolute',
-                top: '100%',
-                right: '-30px',
-                left: 'auto',
-                marginTop: '5px',
-                transform: 'none',
-                inset: 'unset'
-            });
-        } else {
-            // Сбрасываем только если не в медиазапросе
-            if (window.innerWidth > 993) {
-                Object.assign(dropdownMenu.style, {
-                    position: '',
-                    top: '',
-                    right: '',
-                    left: '',
-                    marginTop: '',
-                    transform: '',
-                    inset: ''
-                });
-            }
-        }
-    });
+    if (toggle.getAttribute('aria-expanded') === 'true') {
+      // Принудительно применяем стили
+      Object.assign(dropdownMenu.style, {
+        position: 'absolute',
+        top: '100%',
+        right: '-30px',
+        left: 'auto',
+        marginTop: '5px',
+        transform: 'none',
+        inset: 'unset'
+      });
+    } else {
+      // Сбрасываем только если не в медиазапросе
+      if (window.innerWidth > 993) {
+        Object.assign(dropdownMenu.style, {
+          position: '',
+          top: '',
+          right: '',
+          left: '',
+          marginTop: '',
+          transform: '',
+          inset: ''
+        });
+      }
+    }
+  });
 }
 
 // Вызываем при изменении размера окна
@@ -97,3 +97,19 @@ document.querySelectorAll('.dropdown-toggle::after').forEach(arrow => {
 const style = document.createElement('style');
 style.textContent = '.dropdown-toggle::after { display: none !important; }';
 document.head.appendChild(style);
+
+
+//Ползунок ночь/день
+
+const slideSwitch = document.querySelector('.slide-switch');
+
+// Обработчик клика
+if (slideSwitch) {
+  slideSwitch.addEventListener('click', function () {
+    const isDark = document.body.classList.toggle('dark-theme');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+
+    const thumb = document.querySelector('.slide-thumb');
+    thumb.style.transform = isDark ? 'translateX(100%)' : 'translateX(0)';
+  });
+}

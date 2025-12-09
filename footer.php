@@ -2,7 +2,9 @@
 
 <footer class="footer">
     <div class="container">
+        <!--Подвал контент на две части-->
         <div class="footer__head">
+            <!--Логотип с ссылочными иконками-->
             <div class="footer__head__left">
                 <a class="logo" href="/">
                     <img src="<?= assets('images/logo.png'); ?>" alt="Spotlight icon">
@@ -29,6 +31,7 @@
                     </a>
                 </div>
             </div>
+            <!--Ссылочный список-->
             <div class="footer__head__right">
                 <ul class="column">
                     <li>
@@ -49,6 +52,7 @@
                 </ul>
             </div>
         </div>
+        <!--Приписка со встроенными ссылками-->
         <div class="footer__copyright padding-top-50">
             <p>
 

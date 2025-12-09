@@ -13,18 +13,21 @@
 
 <body>
     <header class="header">
-        <!--Складывающийся Navbar-->
+        <!--Навигационная панель с переходом кнопки меню в "гамбургер" на телефоне-->
         <nav class="navbar navbar-expand-lg">
             <div class="container">
+                <!--Логотип с назвнием-->
+                <a class="logo" href="/">
+                    <img src="<?= assets('images/logo.png'); ?>" alt="Spotlight icon">
+                    <h2>Spotlight</h2>
+                </a>
+                <!--Кнопка для откр./закр. вкладок на телефоне-->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="logo" href="/">
-                    <img src="<?= assets('images/logo.png'); ?>" alt="Spotlight icon">
-                    <h2>Spotlight</h2>
-                </a>
+                <!--Выкидные вкладки на телефоне-->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <?php
                     wp_nav_menu([
@@ -38,8 +41,8 @@
                     ]);
                     ?>
                 </div>
-                <!--Ползунок-->
-                <div class="slide-switch">
+                <!--Ползунок ночь/день-->
+                <div class="slide-switch d-none d-lg-block">
                     <div class="slide-track">
                         <div class="slide-thumb"><i class="icon-sun"></i></div>
                         <span class="slide-state off">
@@ -48,15 +51,15 @@
                     </div>
                 </div>
                 <!--Пооисковик-->
-                <div class="search-container">
+                <div class="search-container d-none d-lg-block">
                     <input type="search" class="form-control search-input" placeholder="Search..." aria-label="Search">
                     <i class="icon-zoom-in-outline"></i>
                 </div>
-                <!--Кнопка Sign-In-->
-                <button type="button" class="btn btn-dark">Sign-up</button>
+                <!--Кнопка "Поиск"-->
+                <button type="button" class="btn btn-dark d-none d-lg-block">Sign-up</button>
             </div>
         </nav>
     </header>
 
 
-    <main class="main-content padding-top-100">
+    <main class="main-content padding-top-150">
