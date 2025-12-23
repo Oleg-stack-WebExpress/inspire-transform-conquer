@@ -30,7 +30,11 @@ get_header();
 <section class="mindset padding-top-100">3</section>
 <section class="emotional padding-top-100">4</section>
 <section class="work-life padding-top-100">5</section>
-<section class="latest padding-top-100">6</section>
+<section class="latest padding-top-100 padding-bottom-100">
+    <button type="button" class="btn btn-dark">
+        Load More
+    </button>
+</section>
 <section class="subscribe padding-top-100 padding-bottom-100">
     <div class="container">
         <div class="row">

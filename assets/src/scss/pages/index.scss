@@ -1,4 +1,4 @@
-/* inspire section */
+/* inspire, subscribe section */
 .inspire,
 .subscribe {
 
@@ -20,6 +20,20 @@
 
 }
 
+/* latest section */
+.latest {
+    display: flex;
+    justify-content: center;
+
+    .btn-dark {
+        background-color: #ededed;
+        color: #1d1d1f;
+        border: 0px;
+        padding: 11px 22px;
+    }
+}
+
+/* subscribe section */
 .subscribe {
     background-color: #f8f8f8;
 
