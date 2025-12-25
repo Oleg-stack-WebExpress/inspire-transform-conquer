@@ -24,12 +24,14 @@
 .latest {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
     .btn-dark {
         background-color: #ededed;
         color: #1d1d1f;
         border: 0px;
         padding: 11px 22px;
+        margin-top: 50px;
     }
 }
 

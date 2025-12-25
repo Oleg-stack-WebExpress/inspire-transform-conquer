@@ -31,6 +31,31 @@ get_header();
 <section class="emotional padding-top-100">4</section>
 <section class="work-life padding-top-100">5</section>
 <section class="latest padding-top-100 padding-bottom-100">
+    <h2 class="col-12">Latest</h2>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        Pursue Passion Projects: Nurture Creativity
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        Unplug and Recharge: Importance of Downtime
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        Create Supportive Work Culture: Encourage Balance
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        Time Management Strategies: Optimize Productivity
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        Thrive in Remote Work: Tips for Balance
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        Myth of Work-Life Balance: Redefining Success
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        Find Flow: Balance Productivity and Relaxation
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        Prioritize Self-Care: Demanding World
+    </div>
     <button type="button" class="btn btn-dark">
         Load More
     </button>
